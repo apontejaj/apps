@@ -49,5 +49,6 @@ var app = {
 };
 
 function shake(){
+	document.getElementById('try').innerHTML = "Am I running?";
 	navigator.vibrate(3000);
 }
