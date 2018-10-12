@@ -1,0 +1,75 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'view',
+1 verbose cli   'cordova-plugin-vabration',
+1 verbose cli   '--json' ]
+2 info using npm@3.10.10
+3 info using node@v6.14.4
+4 silly mapToRegistry name cordova-plugin-vabration
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'cordova-plugin-vabration',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   escapedName: 'cordova-plugin-vabration',
+7 silly mapToRegistry   name: 'cordova-plugin-vabration',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/cordova-plugin-vabration
+9 verbose request uri https://registry.npmjs.org/cordova-plugin-vabration
+10 verbose request no auth needed
+11 info attempt registry request try #1 at 9:36:19 PM
+12 verbose request id 3b92f4c0708a2160
+13 http request GET https://registry.npmjs.org/cordova-plugin-vabration
+14 http 404 https://registry.npmjs.org/cordova-plugin-vabration
+15 verbose headers { date: 'Fri, 12 Oct 2018 20:36:20 GMT',
+15 verbose headers   'content-type': 'application/json',
+15 verbose headers   'content-length': '21',
+15 verbose headers   connection: 'keep-alive',
+15 verbose headers   'set-cookie': [ '__cfduid=d4110ac4d99282abb7759147d9b7e496f1539376580; expires=Sat, 12-Oct-19 20:36:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+15 verbose headers   'cf-cache-status': 'MISS',
+15 verbose headers   'cache-control': 'max-age=300',
+15 verbose headers   'cf-ray': '468c5ba9ac19a725-DUB',
+15 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+15 verbose headers   vary: 'accept-encoding, accept',
+15 verbose headers   server: 'cloudflare' }
+16 silly get cb [ 404,
+16 silly get   { date: 'Fri, 12 Oct 2018 20:36:20 GMT',
+16 silly get     'content-type': 'application/json',
+16 silly get     'content-length': '21',
+16 silly get     connection: 'keep-alive',
+16 silly get     'set-cookie': [ '__cfduid=d4110ac4d99282abb7759147d9b7e496f1539376580; expires=Sat, 12-Oct-19 20:36:20 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+16 silly get     'cf-cache-status': 'MISS',
+16 silly get     'cache-control': 'max-age=300',
+16 silly get     'cf-ray': '468c5ba9ac19a725-DUB',
+16 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+16 silly get     vary: 'accept-encoding, accept',
+16 silly get     server: 'cloudflare' } ]
+17 verbose stack Error: Not found : cordova-plugin-vabration
+17 verbose stack     at makeError (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+17 verbose stack     at CachingRegistryClient.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+17 verbose stack     at Request._callback (/usr/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:210:14)
+17 verbose stack     at Request.self.callback (/usr/lib/node_modules/npm/node_modules/request/request.js:187:22)
+17 verbose stack     at emitTwo (events.js:106:13)
+17 verbose stack     at Request.emit (events.js:191:7)
+17 verbose stack     at Request.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:1048:10)
+17 verbose stack     at emitOne (events.js:96:13)
+17 verbose stack     at Request.emit (events.js:188:7)
+17 verbose stack     at IncomingMessage.<anonymous> (/usr/lib/node_modules/npm/node_modules/request/request.js:969:12)
+18 verbose statusCode 404
+19 verbose pkgid cordova-plugin-vabration
+20 verbose cwd /home/amilcar/Documents/this
+21 error Linux 4.9.0-8-amd64
+22 error argv "/usr/bin/node" "/usr/bin/npm" "view" "cordova-plugin-vabration" "--json"
+23 error node v6.14.4
+24 error npm  v3.10.10
+25 error code E404
+26 error 404 Not found : cordova-plugin-vabration
+27 error 404
+28 error 404 'cordova-plugin-vabration' is not in the npm registry.
+29 error 404 You should bug the author to publish it (or use the name yourself!)
+30 error 404 Note that you can also install from a
+31 error 404 tarball, folder, http url, or git url.
+32 verbose exit [ 1, true ]
